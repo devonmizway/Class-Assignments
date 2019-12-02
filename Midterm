@@ -1,1 +1,5 @@
+Sequence Control Structure - Statements are executed sequentially or in the same order that they appear in the script
+Decision Control Loop - Whether a statement is true or false, the decision conttol may skip the execution of an entire block of statements or may execute pne block instead of another
+Loop Control Structure - This control structure allows a the execution of block statements mltiple times until a location is met
+
 
