@@ -66,11 +66,53 @@ int 1 = 2;
          Console.Write("*");
          i++
       }
-      The output for the code is the same (*)
+      The output for the code is the exact same (*)
       
       8.)
       You can combine true or false values by using the boolean operaters. Boolean operaters use true or false values as operands and make new true or false values.
-          
+       using System;
+       using System.Collections.Generic;
+       using System.Linq;using System.Text;
+       using System.Threading.Tasks;
+      
+       namespace lab1._6
+       {
+       class Program
+       {
+       static void Main(string[] args){bool icyrain = false, tornadowarning = false;
+       if( icyrain == false && tornadowarning == false)
+       {
+       Console.WriteLine("Lets go outside");
+       }
+       }
+       
+       Extra Credit.)
+       
+       using System;
+       using System.Collections.Generic;
+       using System.Linq;using System.Text;
+       using System.Threading.Tasks;
+       namespace ConsoleApp4
+       {
+       class Program
+       {
+       static void Main(string[] args)
+       {
+       int numberoflayer = 5, Space, Number;
+       Console.WriteLine("Print pyramid");
+       for (int i = 1; i <= numberoflayer;i++){for (Space = 1; Space <= (numberoflayer - i);Space++)
+       Console.Write("");
+       for (Number = 1; Number <= i; Number++)
+       Console.Write(Number);
+       for (Number = (i - 1); Number >= 1; Number--)
+       Console.Write(Number);
+       Console.WriteLine();
+       }
+       }
+       }
+       }
+
+   
         
 
 
