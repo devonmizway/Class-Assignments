@@ -1,5 +1,61 @@
-Sequence Control Structure - Statements are executed sequentially or in the same order that they appear in the script
-Decision Control Loop - Whether a statement is true or false, the decision conttol may skip the execution of an entire block of statements or may execute pne block instead of another
-Loop Control Structure - This control structure allows a the execution of block statements mltiple times until a location is met
+2.)
+ For Loop- the loop executes if the condition is true and terminates when the condition is false.
+ If statement- the statement executes if it’s true and skips the statement if it’s false.
+ While loop- the loop checks the statement to continue to make sure it is true and keeps repeating as long as the expression remains true. 
+
+3.)
+int i = 12;
+Boolean keepLooping = true;
+while (keepLooping){if ( i<= 11)keepLooping = false; i++;
+Console.WriteLine(i);
+}
+
+4.) 
+int 1 = 2;
+ while (i<=128)
+ {
+  {
+      if ((1%2) == 0
+      {
+      Console.WriteLine("[{0}]", i);
+      }
+      else if ((1%2) ! = 0)
+      {
+        Console.Write("");
+   } 
+   1*=2;
+   }
+   }
+   
+   5.)
+   string d =",";
+   int i;
+   for (i=49; i >= 1; --i)
+   {
+        Console.Write(i);
+        if (i>=2)
+        {
+            Console.Write(d);
+          }
+    }
+    
+    6.)
+    int i = 1;
+    while (1 <= 21)
+      {
+        {
+           if ((i%2) == 0
+           {
+              Console.Write(" ");
+           }
+           else if ((i%2) ! = 0
+           {
+              Console.Write(i);
+           }
+           i++;
+        }
+     }
+          
+        
 
 
