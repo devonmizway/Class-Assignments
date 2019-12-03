@@ -55,6 +55,21 @@ int 1 = 2;
            i++;
         }
      }
+     
+     7.)
+     The output for the code is *
+     
+     int n = 8;
+     int 1 = 10;
+     while (i < n)
+      {
+         Console.Write("*");
+         i++
+      }
+      The output for the code is the same (*)
+      
+      8.)
+      You can combine true or false values by using the boolean operaters. Boolean operaters use true or false values as operands and make new true or false values.
           
         
 
